@@ -1,3 +1,8 @@
+```
+loadkeys fr_CH
+pacman -Sy archlinux-keyring archinstall
+```
+
 After running arch-bootstrap.sh and install-dotfiles.sh
 ```
 git clone --depth=1 https://github.com/JaKooLit/Arch-Hyprland.git ~/Arch-Hyprland
