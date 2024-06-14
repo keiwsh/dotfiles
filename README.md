@@ -3,6 +3,13 @@ loadkeys fr_CH
 pacman -Sy archlinux-keyring archinstall
 ```
 
+Archinstall
+```
+Additional Packages: NetworkManager git sudo nvim
+```
+
+Run nmtui to connect to WiFi before commencing further.
+
 After running arch-bootstrap.sh and install-dotfiles.sh
 ```
 git clone --depth=1 https://github.com/JaKooLit/Arch-Hyprland.git ~/Arch-Hyprland
